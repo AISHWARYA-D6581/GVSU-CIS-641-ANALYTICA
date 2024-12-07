@@ -1,4 +1,3 @@
-SRS Markdown Structure
 # Overview
 The purpose of this document is to define the functional and non-functional requirements for the Personal Expense Tracker project. The system here is designed to help users manage their personal finances by allowing them to track expenses, view reports and securely manage their financial data. 
 
@@ -56,19 +55,16 @@ We will go through the functional and non functional requirements of the project
 ### User Interface and Experience
 | ID | Requirement |
 | :-------------: | :----------: |
-| NFR1 | The system shall display expenses clearly with intuitive navigation.
- |
+| NFR1 | The system shall display expenses clearly with intuitive navigation. |
 | NFR7 | The interface shall allow users to complete primary actions (e.g. logging an expense) within two steps. |
 | NFR8 | The system shall maintain a consistent design language across all features.  |
 | NFR9 | Error messages shall provide clear feedback without technical jargon. |
-| NFR10 | The system shall allow users to navigate easily between pages.
- |
+| NFR10 | The system shall allow users to navigate easily between pages. |
 
 ### Performance and Scalability
 | ID | Requirement |
 | :-------------: | :----------: |
-| NFR6 | The system shall handle a growing number of users efficiently.
- |
+| NFR6 | The system shall handle a growing number of users efficiently. |
 | NFR7 | The average response time for any user action shall not exceed 5 seconds. |
 | NFR8 | The system shall pre-load commonly used features to improve perceived speed. |
 | NFR9 | The system shall scale to support additional users when traffic increases. |
@@ -79,19 +75,15 @@ We will go through the functional and non functional requirements of the project
 | :-------------: | :----------: |
 | NFR6 | The system shall encrypt all user data. |
 | NFR7 | The system shall enforce strong password requirement for account security. |
-| NFR8 | The system shall logout users after a 1hr of inactivity. 
- |
+| NFR8 | The system shall logout users after a 1hr of inactivity.  |
 | NFR9 | Passwords shall be hashed before storing them in the database.  |
-| NFR10 | The system shall implement basic protection against common security risks.
- |
+| NFR10 | The system shall implement basic protection against common security risks. |
 
 ### Data Privacy and Compliance
 | ID | Requirement |
 | :-------------: | :----------: |
-| NFR6 | The system shall ensure that no unauthorized users should be able to bypass authentication.
- |
-| NFR7 | The system shall ensure that sensitive user data is accessible only to authorized staff.
- |
+| NFR6 | The system shall ensure that no unauthorized users should be able to bypass authentication. |
+| NFR7 | The system shall ensure that sensitive user data is accessible only to authorized staff. |
 | NFR8 | The system shall include a privacy policy to explain how user data is handled.  |
 | NFR9 | The system shall comply with basic privacy regulations.  |
 | NFR10 | The system shall log all user account actions for audit purposes. |
@@ -102,10 +94,8 @@ We will go through the functional and non functional requirements of the project
 | NFR6 | The authentication system must be available 99.9% of the time. |
 | NFR7 | All user data shall be backed up daily and stored securely. |
 | NFR8 | Regular updates shall address bugs and improve user experience. |
-| NFR9 | The system shall be notified of updates within the application.
- |
-| NFR10 | Logs shall monitor system performance for issue diagnosis.
- |
+| NFR9 | The system shall be notified of updates within the application. |
+| NFR10 | Logs shall monitor system performance for issue diagnosis. |
 
 
 # Change management plan
