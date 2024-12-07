@@ -221,5 +221,5 @@ to the file and to those requirements impacted>
 | <filename> | Handle Player Input | FR1-5, NFR2 |
 
 # Software Artifacts
-<Describe the purpose of this section>
-* [Artifacts]()
+This is the link to previous artifacts
+* [Artifacts](https://github.com/AISHWARYA-D6581/GVSU-CIS-641-ANALYTICA/tree/main/artifacts)
